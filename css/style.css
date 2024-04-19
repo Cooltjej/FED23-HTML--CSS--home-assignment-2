@@ -1,0 +1,1064 @@
+@font-face {
+  font-family: GeoSansLight;
+  src: url(../css/fonts/GeosansLight.ttf);
+}
+
+@font-face {
+  font-family: Timeless;
+  src: url(../css/fonts/Timeless.ttf);
+}
+
+@font-face {
+  font-family: GeoSansOblique;
+  src: url(../css/fonts/GeosansLight-Oblique.ttf);
+}
+
+@font-face {
+  font-family: Shardee;
+  src: url(../css/fonts/Shardee.ttf);
+}
+
+header {
+  display: grid;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+#logo-container {
+  display: grid;
+  justify-items: center;
+}
+
+a {
+  background-color: white;
+}
+
+.logo {
+  align-self: center;
+  background-color: white;
+  max-width: 80vw;
+}
+
+#nav-menu {
+  font-family: GeoSansOblique;
+  font-size: medium;
+}
+
+nav {
+  position: relative;
+  bottom: 0.3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+}
+
+nav > a {
+  padding: 0.2rem;
+}
+
+.star {
+  color: yellow;
+  font-size: medium;
+  text-shadow: 0rem 0.1rem 0.1rem rgb(73, 73, 73);
+  padding-bottom: 0.3rem;
+}
+
+#hero-container {
+  position: relative;
+}
+
+.hero-img {
+  width: 96vw;
+  height: auto;
+}
+
+.btn-container {
+  position: absolute;
+  top: 90%;
+  left: 3%;
+}
+
+.txt-container-h1 {
+  position: absolute;
+  top: 2%;
+  left: 1%
+}
+
+.txt-container-h2 {
+  position: absolute;
+  top: 88%;
+  left: 78%;
+}
+
+.txt-container-h1, .txt-container-h2 {
+font-family: Shardee;
+color: #fefefe;
+background-color: rgba(1, 1, 2, 0.158);
+font-size: 3vw;
+border-radius: 40px;
+padding: 0.5vw;
+} 
+
+.txt-container-h1>h1 {
+  margin: 0;
+}
+
+.txt-container-h2>h2 {
+  margin: 0;
+}
+
+.hero-btn {
+  font-family: GeoSansOblique;
+  background-color: rgba(42, 48, 59, 0.705);
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  font-size: smaller;
+}
+
+#sell-info-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+#sell-h3-heading {
+  align-self: center;
+  margin-bottom: 1rem;
+  font-family: GeoSansLight;
+  font-size: 5vw;
+}
+
+.sell-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Timeless;
+}
+
+.sell-h4 {
+  display: inline-block;
+  margin: 1rem 0rem 0.5rem 0rem;
+  font-family: GeoSansLight;
+  font-size: large;
+}
+
+.sell-ul-ma,
+.sell-ul-me,
+.sell-ul-ju {
+  background-color: #fce5fd;
+  max-width: 80vw;
+  padding: 1em 2.7rem 1rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+}
+
+.li-none {
+  list-style-type: none;
+}
+
+.sell-figures {
+  display: flex;
+  flex-direction: column;
+}
+
+.sell-figures > img {
+  width: 110%;
+  align-self: center;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.sell-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Timeless;
+}
+
+.sell-background1 {
+  background-color: #efdcfd;
+  padding: 0rem 2.7rem 0rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+}
+
+.sell-section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Timeless;
+}
+
+.sell-background2 {
+  background-color: #dfdcfd;
+  padding: 0rem 2.7rem 0rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#ab-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ab-img-left > img {
+  width: 100%;
+}
+
+.ab-img-right > img {
+  width: 100%;
+}
+
+.ab-h3 {
+  align-self: center;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+  font-family: GeoSansLight;
+  font-size: 5vw;
+}
+
+.ab-sections {
+  display: flex;
+  flex-direction: column;
+  font-family: Timeless;
+}
+
+.ab-h4 {
+  display: inline;
+  align-self: center;
+  margin-bottom: 0.5rem;
+  font-family: GeoSansLight;
+  font-size: large;
+}
+
+.ab-background {
+  background-color: #dce8fd;
+  padding: 0rem 2.7rem 0rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#blogg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogg-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogg-figure > img {
+  width: 100%;
+}
+
+.bl-h3 {
+  align-self: center;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: GeoSansLight;
+  font-size: x-large;
+}
+
+.bl-background1 {
+  background-color: #dcf1fd;
+  padding: 0rem 2.7rem 0rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.bl-background2 {
+  background-color: #dcf8fd;
+  padding: 0rem 2.7rem 0rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.bl-background3 {
+  background-color: #dcfdf7;
+  padding: 0rem 2.7rem 0rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.bl-background4 {
+  background-color: #dcfde4;
+  padding: 0rem 2.7rem 0rem 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#bl-section1,
+#bl-section2,
+#bl-section3,
+#bl-section4 {
+  display: flex;
+  flex-direction: column;
+  font-family: Timeless;
+}
+
+.bl-h4 {
+  display: inline;
+  align-self: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: GeoSansLight;
+  font-size: large;
+}
+
+#blogg-aside {
+  display: none;
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-container > h3 {
+  align-self: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-family: GeoSansLight;
+  font-size: larger;
+}
+
+legend {
+  background-color: #f1fddc;
+  border: solid 0.1rem black;
+  border-radius: 0.2rem;
+  font-family: GeoSansLight;
+  font-weight: bold;
+  font-size: medium;
+}
+
+fieldset {
+  background-color: #e2fddc;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+}
+
+fieldset > div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+}
+
+div > label {
+  padding-bottom: 0.15rem;
+  font-family: Timeless;
+  font-weight: bold;
+  font-size: medium;
+}
+
+div > input {
+  font-family: Timeless;
+  font-weight: bold;
+}
+
+#phonenr {
+  margin-bottom: 1rem;
+}
+
+#textarea {
+  margin-top: 0.15rem;
+  font-family: Timeless;
+  font-weight: bold;
+  font-size: medium;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4fddc;
+  border: solid 0.1rem black;
+  border-radius: 0.5rem;
+}
+
+footer > p {
+  margin: 0.1rem 1rem 0rem 1rem;
+  padding: 0.2rem;
+  font-family: Timeless;
+  font-weight: bold;
+  font-size: small;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(126, 119, 182);
+  font-weight: bolder;
+}
+
+a:visited {
+  color: rgb(73, 125, 148);
+}
+
+a:hover {
+  text-decoration: solid;
+  color: rgb(197, 137, 253);
+}
+
+a:active {
+  color: rgb(255, 0, 242);
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  header {
+    background-color: white;
+  }
+
+  #logo-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .logo {
+    max-width: 50vw;
+  }
+
+  #nav-menu {
+    font-size: 2vw;
+  }
+
+  #sell-h3-heading,
+  .ab-h3,
+  .bl-h3 {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+
+  .sell-h4,
+  .ab-h4,
+  .bl-h4 {
+    font-size: x-large;
+  }
+
+  li > h4 {
+    font-size: large;
+  }
+
+  .sell-mars,
+  .sell-merkurius,
+  .sell-jupiter {
+    font-size: large;
+  }
+
+  figcaption {
+    font-size: large;
+  }
+
+  div > input {
+    display: inline-block;
+    width: 50vw;
+  }
+
+  #textarea,
+  #button {
+    display: inline-block;
+    width: 50vw;
+  }
+
+  .sell-ul-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .sell-ul-ma,
+  .sell-ul-me,
+  .sell-ul-ju {
+    box-sizing: border-box;
+    width: 32%;
+  }
+
+  .sell-section-container {
+    display: flex;
+  }
+
+  .sell-background1,
+  .sell-background2 {
+    font-size: large;
+    padding-bottom: 0.5rem;
+  }
+
+  .sell-figures {
+    margin: auto;
+    width: 50%;
+  }
+
+  .ab-container {
+    display: flex;
+  }
+
+  .ab-h3 {
+    font-size: x-large;
+  }
+
+  .ab-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .ab-h4 {
+    font-size: 2.2vw;
+  }
+
+  .ab-background {
+    display: flex;
+    border: none;
+  }
+
+  .ab-left {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .ab-img-left {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .ab-img-left img {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .ab-left figcaption {
+    font-size: medium;
+    font-style: italic;
+  }
+
+  .p-text-ab {
+    font-size: medium;
+  }
+
+  .ab-right {
+    align-items: center;
+  }
+
+  .ab-img-right {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .ab-img-right img {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .ab-right figcaption {
+    font-size: medium;
+    font-style: italic;
+  }
+
+  #blogg-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bl-h3 {
+    margin: 7rem 0rem 0rem 0rem;
+    font-size: x-large;
+  }
+
+  .bl-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .aside-container {
+    position: relative;
+    top: 9rem;
+    font-family: GeoSansLight;
+  }
+
+  #blogg-aside {
+    display: contents;
+    flex: 1;
+    background-color: #150e1a;
+    padding: 0.7rem;
+  }
+
+  #blogg-aside > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .bl-h4 {
+    font-size: 2.2vw;
+  }
+
+  .bl-bckgrd {
+    width: 30vw;
+    flex: 2;
+  }
+
+  fieldset {
+    background-image: url(../img-gifs/img/kontakt/dont-call-me.jpg);
+    background-repeat: no-repeat;
+    background-size: 40vw;
+    background-position: 55vw;
+  }
+
+  #button {
+    width: 10vw;
+    background-color: #e1c2f7;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+  header {
+    background-color: white;
+  }
+
+  #logo-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .logo {
+    max-width: 30vw;
+  }
+
+  #nav-menu {
+    font-size: 1.5vw;
+  }
+
+  #sell-h3-heading,
+  .ab-h3,
+  .bl-h3 {
+    margin-top: 5rem;
+    font-size: 2rem;
+    background-color: #dcf8fd;
+    padding: 1rem;
+    border-radius: 5rem;
+  }
+
+  .sell-h4,
+  .ab-h4,
+  .bl-h4 {
+    font-size: x-large;
+    font-style: italic;
+  }
+
+  li > h4 {
+    font-size: large;
+  }
+
+  .sell-mars,
+  .sell-merkurius,
+  .sell-jupiter {
+    font-size: large;
+  }
+
+  figcaption {
+    font-size: large;
+  }
+
+  div > input {
+    display: inline-block;
+    width: 50vw;
+  }
+
+  #textarea,
+  #button {
+    display: inline-block;
+    width: 50vw;
+  }
+
+  .sell-ul-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .sell-ul-ma,
+  .sell-ul-me,
+  .sell-ul-ju {
+    box-sizing: border-box;
+    width: 32%;
+    border: black 0.3rem dotted;
+  }
+
+  .sell-section-container {
+    display: flex;
+  }
+
+  .sell-background1,
+  .sell-background2 {
+    font-size: large;
+    padding-bottom: 0.5rem;
+  }
+
+  .sell-figures {
+    margin: auto;
+    width: 50%;
+  }
+
+  .ab-container {
+    display: flex;
+  }
+
+  .ab-h3 {
+    font-size: x-large;
+  }
+
+  .ab-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .ab-h4 {
+    font-size: 2.2vw;
+  }
+
+  .ab-background {
+    display: flex;
+    border: none;
+  }
+
+  .ab-left {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .ab-img-left {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .ab-img-left img {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .ab-left figcaption {
+    font-size: medium;
+    font-style: italic;
+  }
+
+  .p-text-ab {
+    font-size: medium;
+  }
+
+  .ab-right {
+    align-items: center;
+  }
+
+  .ab-img-right {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .ab-img-right img {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .ab-right figcaption {
+    font-size: medium;
+    font-style: italic;
+  }
+
+  #blogg-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bl-h3 {
+    margin: 7rem 0rem 0rem 0rem;
+    font-size: x-large;
+  }
+
+  .bl-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .aside-container {
+    position: relative;
+    top: 9rem;
+    font-family: GeoSansLight;
+  }
+
+  #blogg-aside {
+    display: contents;
+  }
+
+  #blogg-aside > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .bl-h4 {
+    font-size: 2.2vw;
+  }
+
+  .bl-bckgrd {
+    width: 30vw;
+    flex: 2;
+  }
+
+  fieldset {
+    background-image: url(../img-gifs/gifs/kontakt/contact-me.gif);
+    background-repeat: no-repeat;
+    background-size: 40vw;
+    background-position: 55vw;
+  }
+
+  #button {
+    width: 10vw;
+    background-color: #f7c2e1;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+}
+
+@media screen and (min-width: 1301px) {
+  header {
+    background-color: white;
+  }
+
+  #logo-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .logo {
+    max-width: 30vw;
+  }
+
+  #nav-menu {
+    font-size: 1.5vw;
+  }
+
+  #sell-h3-heading,
+  .ab-h3,
+  .bl-h3 {
+    margin-top: 5rem;
+    font-size: 2rem;
+    border: 0.1rem lightseagreen solid;
+    padding: 1rem;
+  }
+
+  .sell-h4,
+  .ab-h4,
+  .bl-h4 {
+    font-size: x-large;
+    font-style: italic;
+  }
+
+  li > h4 {
+    font-size: large;
+  }
+
+  .sell-mars,
+  .sell-merkurius,
+  .sell-jupiter {
+    font-size: large;
+  }
+
+  figcaption {
+    font-size: large;
+  }
+
+  div > input {
+    display: inline-block;
+    width: 50vw;
+  }
+
+  #textarea,
+  #button {
+    display: inline-block;
+    width: 50vw;
+  }
+
+  .sell-ul-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .sell-ul-ma,
+  .sell-ul-me,
+  .sell-ul-ju {
+    box-sizing: border-box;
+    width: 32%;
+    border: rgb(250, 71, 211) 0.3rem dashed;
+  }
+
+  .sell-section-container {
+    display: flex;
+  }
+
+  .sell-background1,
+  .sell-background2 {
+    font-size: large;
+    padding-bottom: 0.5rem;
+  }
+
+  .sell-figures {
+    margin: auto;
+    width: 30%;
+  }
+
+  .ab-container {
+    display: flex;
+  }
+
+  .ab-h3 {
+    font-size: x-large;
+  }
+
+  .ab-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .ab-h4 {
+    font-size: 2.2vw;
+  }
+
+  .ab-background {
+    display: flex;
+    border: none;
+  }
+
+  .ab-left {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .ab-img-left {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .ab-img-left img {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .ab-left figcaption {
+    font-size: medium;
+    text-decoration: underline 0.1rem black;
+  }
+
+  .p-text-ab {
+    font-size: medium;
+  }
+
+  .ab-right {
+    align-items: center;
+  }
+
+  .ab-img-right {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .ab-img-right img {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .ab-right figcaption {
+    font-size: medium;
+    text-decoration: overline 0.1rem black;
+  }
+
+  #blogg-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bl-h3 {
+    margin: 7rem 0rem 0rem 0rem;
+    font-size: x-large;
+  }
+
+  .bl-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .aside-container {
+    position: relative;
+    top: 9rem;
+    font-family: GeoSansLight;
+  }
+
+  #blogg-aside {
+    display: contents;
+  }
+
+  #blogg-aside > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .bl-h4 {
+    font-size: 2.2vw;
+  }
+
+  .bl-bckgrd {
+    width: 30vw;
+    flex: 2;
+  }
+
+  fieldset {
+    background-image: url(../img-gifs/img/kontakt/im-done.png);
+    background-repeat: no-repeat;
+    background-size: 40vw;
+    background-position: 55vw;
+  }
+
+  #button {
+    width: 10vw;
+    background-color: #f6f7c2;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+}
+
+/*  */
+/* ljusblå #acc5eb; lila #cd98ec; 
+rosa #ffaaf4; ljusgul #ffdfa0;
+ljusrosa ffecf2; */
